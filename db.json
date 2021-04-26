@@ -1,74 +1,186 @@
-[
-    {
-        "id": 8619,
-        "name": "MAIN - ANA 2.0 HB3 Division Hierarchy Build",
-        "description": "Source file for Anaplan API HB3 Division Hierarchy from Finance HA",
-        "dataDescription": "File",
-        "type": null,
-        "functionalArea": "Anaplan Inbound - Finance",
-        "sourceApp": "Finance HA (OKPEBI1) >> FIle Server on sgspiappl009",
-        "sourceModule": "",
-        "targetApp": "sgspiappl009.seagate.com",
-        "targetModule": "",
-        "external": false,
-        "integrationOwner": null,
-        "itContactPerson": "attapon.chutilamtong@seagate.com\nniramit.soonthawong@seagate.com",
-        "sourceITOwner": "",
-        "sourceOwnerDirector": null,
-        "targetITOwner": "",
-        "targetOwnerDirector": null,
-        "documentations": [
+{
+    "integrations": [
+        [
             {
-                "id": 8715,
-                "name": null,
-                "url": "https://docs.google.com/spreadsheets/d/1y9k-q8wwzJIAwJi2b78h5kb0Q8Q0e0rKamffmIUpF7Y/edit#gid=2005833887"
-            }
-        ],
-        "processes": [
+                "id": 8616,
+                "name": "MAIN - BOBJ/Tableau flat list refresh",
+                "description": "Source file for DI3 Import Systems Product Dim from Finance HA",
+                "dataDescription": "File",
+                "type": null,
+                "functionalArea": "Anaplan Inbound - Finance",
+                "sourceApp": "Finance HA (EBI1) >> FIle Server on sgspiappl009",
+                "sourceModule": "",
+                "targetApp": "sgspiappl009.seagate.com",
+                "targetModule": "",
+                "external": false,
+                "integrationOwner": null,
+                "itContactPerson": "attapon.chutilamtong@seagate.com\nniramit.soonthawong@seagate.com",
+                "sourceITOwner": "",
+                "sourceOwnerDirector": null,
+                "targetITOwner": "",
+                "targetOwnerDirector": null,
+                "documentations": [
+                    {
+                        "id": 8712,
+                        "name": null,
+                        "url": "https://docs.google.com/spreadsheets/d/1y9k-q8wwzJIAwJi2b78h5kb0Q8Q0e0rKamffmIUpF7Y/edit#gid=2005833887"
+                    }
+                ],
+                "processes": [
+                    {
+                        "id": 8654,
+                        "name": "Anaplan Date Dim Data",
+                        "main": null,
+                        "componentId": null,
+                        "createdBy": null,
+                        "createdAt": null
+                    }
+                ]
+            },
             {
-                "id": 8657,
-                "name": "Anaplan Date Dim Data",
-                "main": null,
-                "componentId": null,
-                "createdBy": null,
-                "createdAt": null
+                "id": 8617,
+                "name": "MAIN - ANA 2.0 DI1 Import Fixed Assets Data",
+                "description": "Anaplan API call import Fixed Assets Depreciation Projection From Finance HA",
+                "dataDescription": "Application",
+                "type": null,
+                "functionalArea": "Anaplan Inbound - Finance",
+                "sourceApp": "Finance HA (OKPEBI1) >> FIle Server on asiapebase1",
+                "sourceModule": "",
+                "targetApp": "https://api.anaplan.com/1/3",
+                "targetModule": "",
+                "external": false,
+                "integrationOwner": null,
+                "itContactPerson": "attapon.chutilamtong@seagate.com\nniramit.soonthawong@seagate.com",
+                "sourceITOwner": "",
+                "sourceOwnerDirector": null,
+                "targetITOwner": "",
+                "targetOwnerDirector": null,
+                "documentations": [
+                    {
+                        "id": 8713,
+                        "name": null,
+                        "url": "https://docs.google.com/spreadsheets/d/1y9k-q8wwzJIAwJi2b78h5kb0Q8Q0e0rKamffmIUpF7Y/edit#gid=1777962119"
+                    }
+                ],
+                "processes": [
+                    {
+                        "id": 8655,
+                        "name": "Anaplan DI1 Import Fixed Assets Data",
+                        "main": null,
+                        "componentId": null,
+                        "createdBy": null,
+                        "createdAt": null
+                    }
+                ]
+            },
+            {
+                "id": 8618,
+                "name": "MAIN - ANA 2.0 DI2 Import ICMS Depreciation Data",
+                "description": "Source file for Anaplan API import ICMS Depreciation from Finance HA",
+                "dataDescription": "File",
+                "type": null,
+                "functionalArea": "Anaplan Inbound - Finance",
+                "sourceApp": "Finance HA (OKPEBI1) >> FIle Server on asiapebase1",
+                "sourceModule": "",
+                "targetApp": "sgspiappl009.seagate.com",
+                "targetModule": "",
+                "external": false,
+                "integrationOwner": null,
+                "itContactPerson": "attapon.chutilamtong@seagate.com\nniramit.soonthawong@seagate.com",
+                "sourceITOwner": "",
+                "sourceOwnerDirector": null,
+                "targetITOwner": "",
+                "targetOwnerDirector": null,
+                "documentations": [
+                    {
+                        "id": 8714,
+                        "name": null,
+                        "url": "https://docs.google.com/spreadsheets/d/1y9k-q8wwzJIAwJi2b78h5kb0Q8Q0e0rKamffmIUpF7Y/edit#gid=793888379"
+                    }
+                ],
+                "processes": [
+                    {
+                        "id": 8656,
+                        "name": "Anaplan DI2 Import ICMS Depreciation Data",
+                        "main": null,
+                        "componentId": null,
+                        "createdBy": null,
+                        "createdAt": null
+                    }
+                ]
+            },
+            {
+                "id": 8619,
+                "name": "MAIN - ANA 2.0 HB3 Division Hierarchy Build",
+                "description": "Source file for Anaplan API HB3 Division Hierarchy from Finance HA",
+                "dataDescription": "File",
+                "type": null,
+                "functionalArea": "Anaplan Inbound - Finance",
+                "sourceApp": "Finance HA (OKPEBI1) >> FIle Server on sgspiappl009",
+                "sourceModule": "",
+                "targetApp": "sgspiappl009.seagate.com",
+                "targetModule": "",
+                "external": false,
+                "integrationOwner": null,
+                "itContactPerson": "attapon.chutilamtong@seagate.com\nniramit.soonthawong@seagate.com",
+                "sourceITOwner": "",
+                "sourceOwnerDirector": null,
+                "targetITOwner": "",
+                "targetOwnerDirector": null,
+                "documentations": [
+                    {
+                        "id": 8715,
+                        "name": null,
+                        "url": "https://docs.google.com/spreadsheets/d/1y9k-q8wwzJIAwJi2b78h5kb0Q8Q0e0rKamffmIUpF7Y/edit#gid=2005833887"
+                    }
+                ],
+                "processes": [
+                    {
+                        "id": 8657,
+                        "name": "Anaplan Date Dim Data",
+                        "main": null,
+                        "componentId": null,
+                        "createdBy": null,
+                        "createdAt": null
+                    }
+                ]
+            },
+            {
+                "id": 8620,
+                "name": "MAIN - ANA SC Sales Ops - EXPORT SYSTEM FORECAST TO SERVER",
+                "description": "Anaplan API call export Forecast data from Systems - Sales & Operations (Production)\n",
+                "dataDescription": "Application",
+                "type": null,
+                "functionalArea": "Anaplan Outbound",
+                "sourceApp": "Anaplan - Budget System",
+                "sourceModule": "",
+                "targetApp": "https://api.anaplan.com/1/3",
+                "targetModule": "",
+                "external": false,
+                "integrationOwner": null,
+                "itContactPerson": "jianchi Wu",
+                "sourceITOwner": "Pauline Liu",
+                "sourceOwnerDirector": null,
+                "targetITOwner": "Sonali Pendharkar",
+                "targetOwnerDirector": null,
+                "documentations": [
+                    {
+                        "id": 8716,
+                        "name": null,
+                        "url": "https://docs.google.com/spreadsheets/d/1AOm1TOUj47gunHOICP_dM22htrUPWC9zEtomcMMI_QQ/edit?usp=sharing"
+                    }
+                ],
+                "processes": [
+                    {
+                        "id": 8658,
+                        "name": "ANA SC Sales Ops (System export process from Anaplan)",
+                        "main": null,
+                        "componentId": null,
+                        "createdBy": null,
+                        "createdAt": null
+                    }
+                ]
             }
         ]
-    },
-    {
-        "id": 8620,
-        "name": "MAIN - ANA SC Sales Ops - EXPORT SYSTEM FORECAST TO SERVER",
-        "description": "Anaplan API call export Forecast data from Systems - Sales & Operations (Production)\n",
-        "dataDescription": "Application",
-        "type": null,
-        "functionalArea": "Anaplan Outbound",
-        "sourceApp": "Anaplan - Budget System",
-        "sourceModule": "",
-        "targetApp": "https://api.anaplan.com/1/3",
-        "targetModule": "",
-        "external": false,
-        "integrationOwner": null,
-        "itContactPerson": "jianchi Wu",
-        "sourceITOwner": "Pauline Liu",
-        "sourceOwnerDirector": null,
-        "targetITOwner": "Sonali Pendharkar",
-        "targetOwnerDirector": null,
-        "documentations": [
-            {
-                "id": 8716,
-                "name": null,
-                "url": "https://docs.google.com/spreadsheets/d/1AOm1TOUj47gunHOICP_dM22htrUPWC9zEtomcMMI_QQ/edit?usp=sharing"
-            }
-        ],
-        "processes": [
-            {
-                "id": 8658,
-                "name": "ANA SC Sales Ops (System export process from Anaplan)",
-                "main": null,
-                "componentId": null,
-                "createdBy": null,
-                "createdAt": null
-            }
-        ]
-    }
-]
+    ]
+}
